@@ -1,0 +1,49 @@
+.header {
+    margin : 0 2.5rem;
+    padding : .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.headerLeft , .headerRight {
+    display: flex;
+    align-items: center;
+}
+
+a > span {
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+a > span:hover {
+    color : red;
+}
+
+.header__icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
+img{
+    background-color: black;
+    border-radius: 5px;
+}
+.input_text{
+    margin-right: 2px;
+    border-radius: 5px;
+    height: 20px;
+}
+button{
+    border-radius: 5px;
+    cursor: pointer;  
+}
+.signin{
+    background-color: white;
+    border-radius: 5px;
+}
