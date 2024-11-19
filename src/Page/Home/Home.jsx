@@ -60,7 +60,7 @@ export const Home = ()=> {
                     }
                 </Carousel>
                 <div>
-                  <div className='Catogary_list'>
+                  {/* <div className='Catogary_list'>
                     <h3>Genres</h3>
                     <br></br>
                     <br></br>
@@ -86,7 +86,7 @@ export const Home = ()=> {
                       <li>War</li>
                       <li>Western</li>
                     </ul>
-                  </div>
+                  </div> */}
                 <MovieList></MovieList>
                 </div>
                

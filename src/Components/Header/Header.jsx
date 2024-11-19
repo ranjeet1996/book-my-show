@@ -22,12 +22,12 @@ export const Header = () => {
        <Link to="/movies/top_rated" style={{textDecoration:"none"}}><span>Top Rated</span></Link>
        <Link to="/movies/upcoming" style={{textDecoration:"none"}}><span>Upcoming</span></Link>
     </div>
-    <div className='headerright'>
+    {/* <div className='headerright'>
        <div className='input_text'>
          <input className='input_text' type="text" placeholder='Search for Movies'></input>
          <button className='search_button'>Search</button>
        </div>
-    </div>
+    </div> */}
 
 
     {(firebase.currUser) ?  <div><button onClick={HandelClick}>Log out</button>

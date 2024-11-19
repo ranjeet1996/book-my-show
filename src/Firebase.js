@@ -3,13 +3,14 @@ import React, { useContext ,useState , useEffect} from 'react'
 import { createContext } from 'react'
 import { initializeApp } from "firebase/app";
 const firebaseConfig = {
-    apiKey: "AIzaSyBem-_GHx-zBaL2bbJlQdQ6CUXeXal4DCA",
-    authDomain: "book-my-show-8819b.firebaseapp.com",
-    projectId: "book-my-show-8819b",
-    storageBucket: "book-my-show-8819b.appspot.com",
-    messagingSenderId: "1077012336307",
-    appId: "1:1077012336307:web:1f8af517b4285f315faac6"
-  };
+  apiKey: "AIzaSyBTw-NPhYEfG-yQ4YmINHi1eBzA-RlD7Eg",
+  authDomain: "book-my-show-680b6.firebaseapp.com",
+  projectId: "book-my-show-680b6",
+  storageBucket: "book-my-show-680b6.firebasestorage.app",
+  messagingSenderId: "647152365471",
+  appId: "1:647152365471:web:daab14d9e3d17cbb56d7aa",
+  measurementId: "G-6RQ5WTDW94"
+};
 export const app = initializeApp(firebaseConfig);
 
 const auth = getAuth(app);
